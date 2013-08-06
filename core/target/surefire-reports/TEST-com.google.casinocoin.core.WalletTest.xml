@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="12.458" errors="1" skipped="0" tests="33" name="com.google.casinocoin.core.WalletTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin"/>
+    <property name="java.vm.version" value="22.1-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\crypto\java\casinocoinj"/>
+    <property name="java.runtime.version" value="1.7.0_03-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SPYDER~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Calibre2\;C:\cygwin\bin;E:\web\xampp\mysql\bin;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;E:\web\xampp\php;C:\MinGW\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files\apache-maven\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\SpyderRoll"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SpyderRoll"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven\bin\..\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_03"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.366" classname="com.google.casinocoin.core.WalletTest" name="transactions"/>
+  <testcase time="0.312" classname="com.google.casinocoin.core.WalletTest" name="sideChain"/>
+  <testcase time="0.336" classname="com.google.casinocoin.core.WalletTest" name="balance"/>
+  <testcase time="0.361" classname="com.google.casinocoin.core.WalletTest" name="basicSpending"/>
+  <testcase time="0.357" classname="com.google.casinocoin.core.WalletTest" name="customTransactionSpending"/>
+  <testcase time="0.342" classname="com.google.casinocoin.core.WalletTest" name="blockChainCatchup"/>
+  <testcase time="0.296" classname="com.google.casinocoin.core.WalletTest" name="isConsistent_duplicates"/>
+  <testcase time="0.304" classname="com.google.casinocoin.core.WalletTest" name="isConsistent_pools"/>
+  <testcase time="0.297" classname="com.google.casinocoin.core.WalletTest" name="isConsistent_spent"/>
+  <testcase time="0.344" classname="com.google.casinocoin.core.WalletTest" name="doubleSpendFinneyAttack"/>
+  <testcase time="0.357" classname="com.google.casinocoin.core.WalletTest" name="transactionsList"/>
+  <testcase time="0.336" classname="com.google.casinocoin.core.WalletTest" name="keyCreationTime"/>
+  <testcase time="0.32" classname="com.google.casinocoin.core.WalletTest" name="spendToSameWallet"/>
+  <testcase time="0.34" classname="com.google.casinocoin.core.WalletTest" name="rememberLastBlockSeenHash"/>
+  <testcase time="0.31" classname="com.google.casinocoin.core.WalletTest" name="pubkeyOnlyScripts"/>
+  <testcase time="0.355" classname="com.google.casinocoin.core.WalletTest" name="autosaveImmediate"/>
+  <testcase time="1.31" classname="com.google.casinocoin.core.WalletTest" name="autosaveDelayed"/>
+  <testcase time="0.305" classname="com.google.casinocoin.core.WalletTest" name="replayWhilstPending"/>
+  <testcase time="0.836" classname="com.google.casinocoin.core.WalletTest" name="encryptionDecryptionBasic"/>
+  <testcase time="0.554" classname="com.google.casinocoin.core.WalletTest" name="ageMattersDuringSelection"/>
+  <testcase time="0.303" classname="com.google.casinocoin.core.WalletTest" name="respectMaxStandardSize"/>
+  <testcase time="0.306" classname="com.google.casinocoin.core.WalletTest" name="balances"/>
+  <testcase time="0.325" classname="com.google.casinocoin.core.WalletTest" name="bounce"/>
+  <testcase time="0.308" classname="com.google.casinocoin.core.WalletTest" name="pending1"/>
+  <testcase time="0.315" classname="com.google.casinocoin.core.WalletTest" name="pending2"/>
+  <testcase time="0.302" classname="com.google.casinocoin.core.WalletTest" name="pending3"/>
+  <testcase time="0.368" classname="com.google.casinocoin.core.WalletTest" name="basicSpendingWithEncryptedWallet"/>
+  <testcase time="0.344" classname="com.google.casinocoin.core.WalletTest" name="basicSpendingWithEncryptedHetergeneousWallet"/>
+  <testcase time="0.353" classname="com.google.casinocoin.core.WalletTest" name="doubleSpendUnspendsOtherInputs"/>
+  <testcase time="0.311" classname="com.google.casinocoin.core.WalletTest" name="spendOutputFromPendingTransaction"/>
+  <testcase time="0.285" classname="com.google.casinocoin.core.WalletTest" name="encryptionDecryptionBadPassword"/>
+  <testcase time="0.287" classname="com.google.casinocoin.core.WalletTest" name="encryptionDecryptionCheckExceptions"/>
+  <testcase time="0.309" classname="com.google.casinocoin.core.WalletTest" name="encryptionDecryptionHomogenousKeys">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at org.casinocoinj.wallet.Protos$ScryptParameters.internalGetFieldAccessorTable(Protos.java:5455)
+	at com.google.protobuf.GeneratedMessage.getDescriptorForType(GeneratedMessage.java:97)
+	at com.google.protobuf.AbstractMessage.equals(AbstractMessage.java:160)
+	at com.google.common.base.Objects.equal(Objects.java:58)
+	at com.google.casinocoin.crypto.KeyCrypterScrypt.equals(KeyCrypterScrypt.java:255)
+	at com.google.casinocoin.core.Wallet.addKeys(Wallet.java:2048)
+	at com.google.casinocoin.core.Wallet.addKey(Wallet.java:2027)
+	at com.google.casinocoin.core.WalletTest.encryptionDecryptionHomogenousKeys(WalletTest.java:1186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+Caused by: java.lang.IllegalArgumentException: Failed to parse protocol buffer descriptor for generated code.
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:286)
+	at org.casinocoinj.wallet.Protos.&lt;clinit&gt;(Protos.java:8444)
+	... 38 more
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Protocol message tag had invalid wire type.
+	at com.google.protobuf.InvalidProtocolBufferException.invalidWireType(InvalidProtocolBufferException.java:78)
+	at com.google.protobuf.UnknownFieldSet$Builder.mergeFieldFrom(UnknownFieldSet.java:498)
+	at com.google.protobuf.GeneratedMessage$Builder.parseUnknownField(GeneratedMessage.java:438)
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto$Builder.mergeFrom(DescriptorProtos.java:1458)
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto$Builder.mergeFrom(DescriptorProtos.java:1079)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:300)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:238)
+	at com.google.protobuf.AbstractMessageLite$Builder.mergeFrom(AbstractMessageLite.java:162)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:716)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:238)
+	at com.google.protobuf.AbstractMessageLite$Builder.mergeFrom(AbstractMessageLite.java:153)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:709)
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto.parseFrom(DescriptorProtos.java:1013)
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:284)
+	... 39 more
+</error>
+    <system-err>11:06:37 1 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 6b56c40297ea6ebf5845595e3464ebc4db4c7cdcebd5eda9d44a1684b63c68c0
+   time: [1375419978] Thu Aug 01 23:06:18 MDT 2013
+   difficulty target (nBits): 545259519
+   nonce: 2
+
+</system-err>
+  </testcase>
+</testsuite>
